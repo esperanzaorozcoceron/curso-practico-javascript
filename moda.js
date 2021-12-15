@@ -20,10 +20,6 @@ const lista1Array = Object.entries(list1Count).sort(   // transformamos ese obje
 
 const moda = lista1Array[lista1Array.length - 1];
 
-function calcularModa(lista) {
-    let  =  
-}
-
 function calcularModa(valores) {
     const [repeticiones, moda] = valores.reduce(
       (acc, val) => {
